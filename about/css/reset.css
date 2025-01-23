@@ -1,0 +1,106 @@
+/* !!Отступы и границы */
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+/* !!меняет подсчет ширины блоков удобных для верстки */
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* !!убираем линии обводки */
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+/* !!добавление блока (делает элементы блочными) */
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+/* !!уравнение параметров */
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 100%;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   background-color: #202124;
+}
+
+/* !!Наследование шрифта */
+button,
+input,
+textarea {
+   font-family: inherit;
+}
+
+/* !!Убирают особенности в некотрых браузерах */
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+html {
+   box-sizing: border-box;
+   overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+   box-sizing: inherit;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+ul {
+   list-style: none;
+}
